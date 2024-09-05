@@ -52,8 +52,8 @@ __SYD.entryPage = () =>{
                                     {
                                         console.log('playing')
                                         __v['main_video'].play();
-                                        __v['aux_video1'].play();
-                                        __v['aux_video2'].play()
+                                        __v['aux_video1'].src = './vid2.mp4'
+                                        __v['aux_video2'].src = './vid3.mp4'
 
                                         __v['aux_video1'].volume = 0;
                                         __v['aux_video2'].volume = 0;

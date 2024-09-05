@@ -193,7 +193,7 @@ __SYD.vidPageComp2 = () =>{
                             playsinline:true , muted:true
                         },
                         [
-                            __c('source',{src:'./vid2.mp4'},[],{type:'vid_src'})
+                            __c('source',{src:''},[],{type:'vid_src'})//./vid2.mp4
                         ],
                         {
                             events:{
@@ -235,7 +235,7 @@ __SYD.vidPageComp3 = () =>{
                             playsinline:true , muted:true
                         },
                         [
-                            __c('source',{src:'./vid3.mp4' , autoplay:true},[],{type:'vid_src'})
+                            __c('source',{src:'' , autoplay:true},[],{type:'vid_src'})//./vid3.mp4
                         ],
                         {
                             events:{

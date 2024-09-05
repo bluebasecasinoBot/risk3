@@ -176,7 +176,7 @@ __SYD.vidPageComp2 = () =>{
     return __c(
         'div',
         {
-            style:`position:absolute;top:${__p(['container','scale'],false) ? '105px' : '40px'};left:1315px;height:150px;width:230px;background:green;transform:translateZ(-500px);transition:all linear .3s;`
+            style:`position:absolute;top:${__p(['container','scale'],false) ? '105px' : '30px'};left:1315px;height:150px;width:230px;background:green;transform:translateZ(-500px);transition:all linear .3s;`
         },
         [
             __c(

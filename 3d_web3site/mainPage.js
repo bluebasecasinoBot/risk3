@@ -190,7 +190,7 @@ __SYD.vidPageComp2 = () =>{
                         'video',
                         {
                             style:'width:100%;height:auto;z-index:500',//height:calc(100% - 80px);
-                            autoplay:true,preload:'auto' , playsinline:true , muted:true
+                            playsinline:true , muted:true
                         },
                         [
                             __c('source',{src:'./vid2.mp4'},[],{type:'vid_src'})
@@ -198,7 +198,7 @@ __SYD.vidPageComp2 = () =>{
                         {
                             events:{
                                 onloadeddata:(e) =>{
-                                    console.log('loaded video')
+                                    e.target.play();
                                     e.target.volume = 0;
                                 },
                                 onpause:(e) =>{
@@ -232,7 +232,7 @@ __SYD.vidPageComp3 = () =>{
                         'video',
                         {
                             style:'width:auto;height:100%;z-index:500',//height:calc(100% - 80px);
-                            autoplay:true,preload:'auto' , playsinline:true , muted:true
+                            playsinline:true , muted:true
                         },
                         [
                             __c('source',{src:'./vid3.mp4' , autoplay:true},[],{type:'vid_src'})
@@ -240,6 +240,7 @@ __SYD.vidPageComp3 = () =>{
                         {
                             events:{
                                 onloadeddata:(e) =>{
+                                    e.target.play();
                                     e.target.volume = 0;
                                 },
 

@@ -34,7 +34,8 @@ __SYD.icons_float = () =>{
                 'a',
                 {
                     style:'height:30px;width:30px;background-image:url("./tele.png")',
-                    class:'scale'
+                    class:'scale',
+                    href:'https://t.me/riskittogetrich_ERC20'
                 },[],
                 {
                     genericStyle:['bg_fit']
@@ -44,7 +45,8 @@ __SYD.icons_float = () =>{
                 'a',
                 {
                     style:'height:30px;width:30px;background-image:url("./x.png")',
-                    class:'scale'
+                    class:'scale',
+                    href:'https://x.com/risktogetrich_'
                 },[],
                 {
                     genericStyle:['bg_fit']
